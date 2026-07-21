@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace peels\stash;
+namespace orange\stash;
 
 interface StashInterface
 {

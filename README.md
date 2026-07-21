@@ -5,7 +5,7 @@ Stashes the entire current HTTP request (POST, GET, cookies, files, server vars,
 ## Example
 
 ```php
-use peels\stash\Stash;
+use orange\stash\Stash;
 
 $stash = Stash::getInstance($session, $input); // SessionInterface, InputInterface
 

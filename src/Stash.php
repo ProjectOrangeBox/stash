@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace peels\stash;
+namespace orange\stash;
 
-use peels\stash\StashInterface;
-use peels\session\SessionInterface;
+use orange\stash\StashInterface;
+use orange\session\SessionInterface;
 use orange\framework\base\Singleton;
 use orange\framework\interfaces\InputInterface;
 

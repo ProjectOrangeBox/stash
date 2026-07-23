@@ -11,15 +11,10 @@ use orange\framework\interfaces\InputInterface;
 
 class Stash extends Singleton implements StashInterface
 {
-    protected InputInterface $input;
-    protected SessionInterface $session;
-
     protected string $stashKey = '__#stash#__';
 
-    protected function __construct(SessionInterface $session, InputInterface $input)
+    protected function __construct(protected SessionInterface $session, protected InputInterface $input)
     {
-        $this->session = $session;
-        $this->input = $input;
     }
 
     /**
